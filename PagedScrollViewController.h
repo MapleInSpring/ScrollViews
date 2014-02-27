@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PagedScrollViewController.h
 //  ScrollViews
 //
 //  Created by Yifeng Hou on 24/2/14.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UIScrollViewDelegate>
+@interface PagedScrollViewController : UIViewController <UIScrollViewDelegate>
 
 @property (nonatomic, strong) IBOutlet UIScrollView *scrollView;
+@property (nonatomic, strong) IBOutlet UIPageControl *pageControl;
 
 @end

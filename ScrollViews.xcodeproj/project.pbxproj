@@ -21,6 +21,15 @@
 		D3795CF518BC4EF7009AC84B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3795CD718BC4EF7009AC84B /* UIKit.framework */; };
 		D3795CFD18BC4EF7009AC84B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3795CFB18BC4EF7009AC84B /* InfoPlist.strings */; };
 		D3795CFF18BC4EF7009AC84B /* ScrollViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3795CFE18BC4EF7009AC84B /* ScrollViewsTests.m */; };
+		D3795D0F18BC4F44009AC84B /* photo1.png in Resources */ = {isa = PBXBuildFile; fileRef = D3795D0918BC4F44009AC84B /* photo1.png */; };
+		D3795D1018BC4F44009AC84B /* photo2.png in Resources */ = {isa = PBXBuildFile; fileRef = D3795D0A18BC4F44009AC84B /* photo2.png */; };
+		D3795D1118BC4F44009AC84B /* photo3.png in Resources */ = {isa = PBXBuildFile; fileRef = D3795D0B18BC4F44009AC84B /* photo3.png */; };
+		D3795D1218BC4F44009AC84B /* photo4.png in Resources */ = {isa = PBXBuildFile; fileRef = D3795D0C18BC4F44009AC84B /* photo4.png */; };
+		D3795D1318BC4F44009AC84B /* photo5.png in Resources */ = {isa = PBXBuildFile; fileRef = D3795D0D18BC4F44009AC84B /* photo5.png */; };
+		D3795D1418BC4F44009AC84B /* slow.png in Resources */ = {isa = PBXBuildFile; fileRef = D3795D0E18BC4F44009AC84B /* slow.png */; };
+		D3795D1A18BC55B8009AC84B /* CustomScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3795D1918BC55B8009AC84B /* CustomScrollViewController.m */; };
+		D3795D2018BC57B8009AC84B /* PagedScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3795D1F18BC57B8009AC84B /* PagedScrollViewController.m */; };
+		D3795D2318BC5A4F009AC84B /* PeekPagedScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3795D2218BC5A4F009AC84B /* PeekPagedScrollViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +62,18 @@
 		D3795CFA18BC4EF7009AC84B /* ScrollViewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollViewsTests-Info.plist"; sourceTree = "<group>"; };
 		D3795CFC18BC4EF7009AC84B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D3795CFE18BC4EF7009AC84B /* ScrollViewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewsTests.m; sourceTree = "<group>"; };
+		D3795D0918BC4F44009AC84B /* photo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo1.png; sourceTree = "<group>"; };
+		D3795D0A18BC4F44009AC84B /* photo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo2.png; sourceTree = "<group>"; };
+		D3795D0B18BC4F44009AC84B /* photo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo3.png; sourceTree = "<group>"; };
+		D3795D0C18BC4F44009AC84B /* photo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo4.png; sourceTree = "<group>"; };
+		D3795D0D18BC4F44009AC84B /* photo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo5.png; sourceTree = "<group>"; };
+		D3795D0E18BC4F44009AC84B /* slow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slow.png; sourceTree = "<group>"; };
+		D3795D1818BC55B7009AC84B /* CustomScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomScrollViewController.h; path = ../CustomScrollViewController.h; sourceTree = "<group>"; };
+		D3795D1918BC55B8009AC84B /* CustomScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomScrollViewController.m; path = ../CustomScrollViewController.m; sourceTree = "<group>"; };
+		D3795D1E18BC57B8009AC84B /* PagedScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PagedScrollViewController.h; path = ../PagedScrollViewController.h; sourceTree = "<group>"; };
+		D3795D1F18BC57B8009AC84B /* PagedScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PagedScrollViewController.m; path = ../PagedScrollViewController.m; sourceTree = "<group>"; };
+		D3795D2118BC5A4F009AC84B /* PeekPagedScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeekPagedScrollViewController.h; sourceTree = "<group>"; };
+		D3795D2218BC5A4F009AC84B /* PeekPagedScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeekPagedScrollViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +133,19 @@
 		D3795CD918BC4EF7009AC84B /* ScrollViews */ = {
 			isa = PBXGroup;
 			children = (
+				D3795D1818BC55B7009AC84B /* CustomScrollViewController.h */,
+				D3795D1918BC55B8009AC84B /* CustomScrollViewController.m */,
+				D3795D1E18BC57B8009AC84B /* PagedScrollViewController.h */,
+				D3795D1F18BC57B8009AC84B /* PagedScrollViewController.m */,
+				D3795D2118BC5A4F009AC84B /* PeekPagedScrollViewController.h */,
+				D3795D2218BC5A4F009AC84B /* PeekPagedScrollViewController.m */,
 				D3795CE218BC4EF7009AC84B /* AppDelegate.h */,
 				D3795CE318BC4EF7009AC84B /* AppDelegate.m */,
 				D3795CE518BC4EF7009AC84B /* Main.storyboard */,
 				D3795CE818BC4EF7009AC84B /* ViewController.h */,
 				D3795CE918BC4EF7009AC84B /* ViewController.m */,
 				D3795CEB18BC4EF7009AC84B /* Images.xcassets */,
+				D3795D0818BC4F44009AC84B /* ScrollViewsResources */,
 				D3795CDA18BC4EF7009AC84B /* Supporting Files */,
 			);
 			path = ScrollViews;
@@ -150,6 +178,19 @@
 				D3795CFB18BC4EF7009AC84B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3795D0818BC4F44009AC84B /* ScrollViewsResources */ = {
+			isa = PBXGroup;
+			children = (
+				D3795D0918BC4F44009AC84B /* photo1.png */,
+				D3795D0A18BC4F44009AC84B /* photo2.png */,
+				D3795D0B18BC4F44009AC84B /* photo3.png */,
+				D3795D0C18BC4F44009AC84B /* photo4.png */,
+				D3795D0D18BC4F44009AC84B /* photo5.png */,
+				D3795D0E18BC4F44009AC84B /* slow.png */,
+			);
+			path = ScrollViewsResources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,8 +269,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3795D1218BC4F44009AC84B /* photo4.png in Resources */,
+				D3795D1018BC4F44009AC84B /* photo2.png in Resources */,
+				D3795D1418BC4F44009AC84B /* slow.png in Resources */,
+				D3795D0F18BC4F44009AC84B /* photo1.png in Resources */,
 				D3795CEC18BC4EF7009AC84B /* Images.xcassets in Resources */,
+				D3795D1318BC4F44009AC84B /* photo5.png in Resources */,
 				D3795CDE18BC4EF7009AC84B /* InfoPlist.strings in Resources */,
+				D3795D1118BC4F44009AC84B /* photo3.png in Resources */,
 				D3795CE718BC4EF7009AC84B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,8 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3795D2018BC57B8009AC84B /* PagedScrollViewController.m in Sources */,
+				D3795D1A18BC55B8009AC84B /* CustomScrollViewController.m in Sources */,
 				D3795CEA18BC4EF7009AC84B /* ViewController.m in Sources */,
 				D3795CE418BC4EF7009AC84B /* AppDelegate.m in Sources */,
+				D3795D2318BC5A4F009AC84B /* PeekPagedScrollViewController.m in Sources */,
 				D3795CE018BC4EF7009AC84B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
